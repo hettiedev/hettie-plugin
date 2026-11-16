@@ -1,0 +1,16 @@
+{
+  "name": "hettie",
+  "displayName": "Hettie",
+  "version": "0.0.1",
+  "description": "Publish and run websites made with Claude: posts, leads, analytics, media, domains and A/B experiments on Hettie.",
+  "author": { "name": "Hettie", "url": "https://hettie.dev" },
+  "homepage": "https://hettie.dev",
+  "repository": "https://github.com/hettiedev/hettie-plugin",
+  "license": "MIT",
+  "keywords": ["website", "hosting", "blog", "leads", "analytics", "astro"],
+  "icon": "./icon.png",
+  "documentationUrl": "https://hettie.dev/guides/",
+  "supportUrl": "https://app.hettie.dev/terms#contact",
+  "privacyPolicyUrl": "https://app.hettie.dev/privacy",
+  "termsOfServiceUrl": "https://app.hettie.dev/terms"
+}

@@ -1,0 +1,5 @@
+{
+  "mcpServers": {
+    "hettie": { "type": "http", "url": "https://app.hettie.dev/mcp" }
+  }
+}

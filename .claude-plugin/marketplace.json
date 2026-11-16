@@ -1,0 +1,12 @@
+{
+  "name": "hettie",
+  "owner": { "name": "Hettie", "url": "https://hettie.dev" },
+  "metadata": { "description": "The Hettie plugin for Claude" },
+  "plugins": [
+    {
+      "name": "hettie",
+      "source": "./",
+      "description": "Publish and run websites made with Claude on Hettie."
+    }
+  ]
+}
