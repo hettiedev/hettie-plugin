@@ -7,7 +7,7 @@
   "homepage": "https://hettie.dev",
   "repository": "https://github.com/hettiedev/hettie-plugin",
   "license": "MIT",
-  "keywords": ["website", "hosting", "blog", "leads", "analytics", "astro"],
+  "keywords": ["website", "hosting", "blog", "leads", "analytics", "html", "astro"],
   "icon": "./icon.png",
   "documentationUrl": "https://hettie.dev/guides/",
   "supportUrl": "https://app.hettie.dev/terms#contact",
