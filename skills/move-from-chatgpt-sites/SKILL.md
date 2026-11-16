@@ -1,6 +1,6 @@
 ---
 name: move-from-chatgpt-sites
-description: Move a website made with ChatGPT Sites (or any plain HTML site) to Hettie, keeping every page, design, text and URL. Use when the person wants to move or migrate a ChatGPT site or another HTML site to Hettie. Works in any Claude chat with the Hettie connector.
+description: Move a website made with ChatGPT Sites (or any plain HTML site) to Hettie, keeping every page, design, text and URL. Use when the person wants to move or migrate a ChatGPT site or another HTML site to Hettie. Works in any chat with the Hettie connector.
 ---
 
 # Move a ChatGPT site to Hettie

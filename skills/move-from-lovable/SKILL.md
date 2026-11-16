@@ -7,7 +7,7 @@ description: Move a website made in Lovable to Hettie, keeping its design, text 
 
 This is for Lovable projects that are websites: a few pages and forms. Sites where people log in, have accounts or pay inside the app should stay on Lovable. If you find a login or live data, stop and tell the person before going further.
 
-You need the code: in Lovable the person connects GitHub, and you read that repository (with the GitHub connector, or a clone in Claude Code). Nothing changes on Lovable while you move.
+You need the code: in Lovable the person connects GitHub, and you read that repository (with a GitHub connector, or a clone on the computer). Nothing changes on Lovable while you move.
 
 Lovable sites are React, Vite, Tailwind and shadcn, often with Supabase. Hettie serves plain files, so turn each page into HTML:
 

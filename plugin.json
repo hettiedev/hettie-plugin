@@ -1,0 +1,53 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "hettie",
+  "version": "0.0.1",
+  "description": "Publish and run websites from your chat: pages, posts, leads, analytics, media, domains and A/B experiments on Hettie.",
+  "author": {
+    "name": "Hettie",
+    "url": "https://hettie.dev"
+  },
+  "homepage": "https://hettie.dev",
+  "repository": "https://github.com/hettiedev/hettie-plugin",
+  "license": "MIT",
+  "keywords": [
+    "website",
+    "hosting",
+    "blog",
+    "leads",
+    "analytics",
+    "domain"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Hettie",
+        "shortDescription": "Publish and run websites",
+        "longDescription": "Hettie hosts websites made in chat. Publish a site's pages straight from the conversation, move a site from Lovable or ChatGPT Sites, connect your own domain, and see visits, leads and where they came from. Write blog posts, upload media and run A/B tests on pages. Sign in with your Hettie account. Hettie never changes your DNS: you add the records it shows at your registrar.",
+        "developerName": "Hettie",
+        "category": "Productivity",
+        "capabilities": [
+          "Publish sites",
+          "Move sites to Hettie",
+          "Leads",
+          "Analytics",
+          "Blog posts",
+          "Domains",
+          "A/B tests"
+        ],
+        "websiteURL": "https://hettie.dev",
+        "supportURL": "https://app.hettie.dev/terms#contact",
+        "privacyPolicyURL": "https://app.hettie.dev/privacy",
+        "termsOfServiceURL": "https://app.hettie.dev/terms",
+        "defaultPrompt": [
+          "Move my website to Hettie.",
+          "Show me this week's leads on my Hettie sites.",
+          "Put my Hettie site on my own domain."
+        ],
+        "brandColor": "#5A3A78",
+        "composerIcon": "./assets/icon.png",
+        "logo": "./assets/logo.png"
+      }
+    }
+  }
+}

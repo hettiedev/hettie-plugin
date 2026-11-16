@@ -1,6 +1,6 @@
 ---
 name: start-a-site
-description: Make a new website and publish it on Hettie, or publish changes to a Hettie site. Use when the person wants a new website or landing page, or says "publish this with Hettie". Works in any Claude chat with the Hettie connector.
+description: Make a new website and publish it on Hettie, or publish changes to a Hettie site. Use when the person wants a new website or landing page, or says "publish this with Hettie". Works in any chat with the Hettie connector.
 ---
 
 # Start a site on Hettie
