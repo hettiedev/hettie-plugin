@@ -14,4 +14,4 @@ Hettie hosts the site's files as they are: HTML, CSS, JavaScript, images and fon
 5. To change a page later, read it with `get_site_files`, edit it, and publish just that file.
 6. For their own domain, use `add_domain`. Show the DNS records exactly as returned, and check with `get_domains` after they add them. Hettie never changes their DNS.
 
-Blog posts are written with the write-post skill.
+Blog posts are written with the write-post skill. They show at `/blog` in the site's own header and footer, unless the site has its own blog pages.
