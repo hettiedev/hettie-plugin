@@ -24,6 +24,8 @@ claude plugin marketplace add hettiedev/hettie-plugin
 claude plugin install hettie@hettie
 ```
 
+Then connect it once: type `/mcp`, pick `plugin:hettie:hettie`, choose **Authenticate**, sign in to Hettie and press Allow. Claude Code doesn't prompt for this on its own.
+
 **Codex**
 
 ```

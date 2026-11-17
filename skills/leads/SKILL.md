@@ -5,6 +5,8 @@ description: Show and follow up on the leads from a Hettie site's forms - who go
 
 # Leads on Hettie
 
+> **Not connected yet?** If Hettie's tools (like `list_sites`) aren't available, the Hettie connector isn't signed in. Don't work around it. Tell the person how to connect, then stop: in Claude Code, type `/mcp`, pick `plugin:hettie:hettie` and choose Authenticate; in Codex, run `codex mcp login hettie`; in Claude or ChatGPT on the web, connect Hettie under Connectors or Plugins. They sign in to Hettie and press Allow once.
+
 Every form on a Hettie site posts to `/forms/<name>`. Hettie saves each reply as a lead, emails it to the owner, and records where the visitor came from.
 
 1. Find the site with `list_sites` unless the person named it.

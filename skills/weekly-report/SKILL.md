@@ -5,6 +5,8 @@ description: Report how the person's Hettie sites are doing - visits, leads, lea
 
 # Weekly report for Hettie sites
 
+> **Not connected yet?** If Hettie's tools (like `list_sites`) aren't available, the Hettie connector isn't signed in. Don't work around it. Tell the person how to connect, then stop: in Claude Code, type `/mcp`, pick `plugin:hettie:hettie` and choose Authenticate; in Codex, run `codex mcp login hettie`; in Claude or ChatGPT on the web, connect Hettie under Connectors or Plugins. They sign in to Hettie and press Allow once.
+
 Use the Hettie connector's tools. Numbers come from the tools, never from memory or an earlier answer.
 
 1. `list_sites` with `days: 7` (or the period the person asked for) gives every site's engaged visitors, leads, lead rate, top source and, with Google Ads connected, cost per lead. Call it again with `days: 14` to compare with the week before.

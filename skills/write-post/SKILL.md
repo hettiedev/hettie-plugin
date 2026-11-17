@@ -5,6 +5,8 @@ description: Write, edit, schedule or publish a blog post on a Hettie site. Use 
 
 # Write a post on Hettie
 
+> **Not connected yet?** If Hettie's tools (like `list_sites`) aren't available, the Hettie connector isn't signed in. Don't work around it. Tell the person how to connect, then stop: in Claude Code, type `/mcp`, pick `plugin:hettie:hettie` and choose Authenticate; in Codex, run `codex mcp login hettie`; in Claude or ChatGPT on the web, connect Hettie under Connectors or Plugins. They sign in to Hettie and press Allow once.
+
 Posts live in Hettie, not in the site's files, so they go live without publishing the site again. Use the Hettie connector's tools.
 
 1. Find the site with `list_sites` unless the person named it. Read `list_posts` to match the tone and avoid repeating a topic.

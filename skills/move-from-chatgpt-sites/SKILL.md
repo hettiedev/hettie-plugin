@@ -5,6 +5,8 @@ description: Move a website made with ChatGPT Sites (or any plain HTML site) to 
 
 # Move a ChatGPT site to Hettie
 
+> **Not connected yet?** If Hettie's tools (like `list_sites`) aren't available, the Hettie connector isn't signed in. Don't work around it. Tell the person how to connect, then stop: in Claude Code, type `/mcp`, pick `plugin:hettie:hettie` and choose Authenticate; in Codex, run `codex mcp login hettie`; in Claude or ChatGPT on the web, connect Hettie under Connectors or Plugins. They sign in to Hettie and press Allow once.
+
 The ChatGPT site stays live until the domain is switched, so nothing breaks while you move. Hettie serves the files as they are, so the move is a copy, not a rebuild.
 
 1. List the site's pages, by reading the home page's links (and the sitemap if it has one), and its forms. Show the list to the person before you start.
