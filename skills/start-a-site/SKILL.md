@@ -5,7 +5,7 @@ description: Make a new website and publish it on Hettie, or publish changes to 
 
 # Start a site on Hettie
 
-> **Not connected yet?** If Hettie's tools (like `list_sites`) aren't available, the Hettie connector isn't signed in. Don't work around it. Tell the person how to connect, then stop: in Claude Code, type `/mcp`, pick `plugin:hettie:hettie` and choose Authenticate; in Codex, run `codex mcp login hettie`; in Claude or ChatGPT on the web, connect Hettie under Connectors or Plugins. They sign in to Hettie and press Allow once.
+> **Not connected yet?** If Hettie's tools (like `list_sites`) aren't available, the Hettie connector isn't signed in. Don't work around it. Tell the person how to connect, then stop: in Claude Code, type `/mcp`, pick `plugin:hettie:hettie` and choose Authenticate; in Codex, run `codex mcp login hettie`; in Claude chat or Cowork, go to Customize > Plugins > Hettie > Connectors and press Connect (claude.ai/customize/plugins); in ChatGPT, add Hettie on chatgpt.com/plugins. They sign in to Hettie and press Allow once.
 
 Hettie hosts the site's files as they are: HTML, CSS, JavaScript, images and fonts. No build step is needed.
 

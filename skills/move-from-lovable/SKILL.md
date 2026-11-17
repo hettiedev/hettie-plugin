@@ -5,7 +5,7 @@ description: Move a website made in Lovable to Hettie, keeping its design, text 
 
 # Move a Lovable site to Hettie
 
-> **Not connected yet?** If Hettie's tools (like `list_sites`) aren't available, the Hettie connector isn't signed in. Don't work around it. Tell the person how to connect, then stop: in Claude Code, type `/mcp`, pick `plugin:hettie:hettie` and choose Authenticate; in Codex, run `codex mcp login hettie`; in Claude or ChatGPT on the web, connect Hettie under Connectors or Plugins. They sign in to Hettie and press Allow once.
+> **Not connected yet?** If Hettie's tools (like `list_sites`) aren't available, the Hettie connector isn't signed in. Don't work around it. Tell the person how to connect, then stop: in Claude Code, type `/mcp`, pick `plugin:hettie:hettie` and choose Authenticate; in Codex, run `codex mcp login hettie`; in Claude chat or Cowork, go to Customize > Plugins > Hettie > Connectors and press Connect (claude.ai/customize/plugins); in ChatGPT, add Hettie on chatgpt.com/plugins. They sign in to Hettie and press Allow once.
 
 This is for Lovable projects that are websites: a few pages and forms. Sites where people log in, have accounts or pay inside the app should stay on Lovable. If you find a login or live data, stop and tell the person before going further.
 
